@@ -943,3 +943,50 @@ header {
       url("../images/people-office-mobile@2x.jpg");
   }
 }
+
+
+@media all and (min-width: 768px) {
+
+  .container {
+    max-width: 768px;
+  }
+
+  .header-wrap {
+    height: 72px;
+    max-width: 768px;
+  }
+
+  .navigation {
+    align-items: center;
+    display: flex;
+  }
+
+  .header-wrap .nav-list {
+    display: flex;
+    gap: 40px;
+  }
+
+  .header-wrap .nav-link {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    padding: 24px 0;
+  }
+
+  .header-wrap .address {
+    display: flex;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0.04em;
+    line-height: 1.17;
+    margin-left: auto;
+    max-width: 119px;
+  }
+
+  .header-wrap .address-list {
+    gap: 12px;
+  }
+
+  .menu-toggle {
+    display: none;
+  }
