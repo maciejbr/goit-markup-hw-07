@@ -961,19 +961,19 @@ header {
     display: flex;
   }
 
-  .header-wrap .nav-list {
+  .header-div .nav-list {
     display: flex;
     gap: 40px;
   }
 
-  .header-wrap .nav-link {
+  .header-div .nav-link {
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
     padding: 24px 0;
   }
 
-  .header-wrap .address {
+  .header-div .address {
     display: flex;
     font-size: 12px;
     font-weight: 400;
@@ -983,7 +983,7 @@ header {
     max-width: 119px;
   }
 
-  .header-wrap .address-list {
+  .header-div .address-list {
     gap: 12px;
   }
 
