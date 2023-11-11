@@ -990,3 +990,42 @@ header {
   .menu-toggle {
     display: none;
   }
+
+  .section-one {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url("../images/people-office-tablet.jpg");
+  }
+  .heading-one {
+    font-size: 56px;
+    line-height: 1.07;
+    max-width: 496px;
+  }
+
+  .section-two-list {
+    gap: 72px 24px;
+    margin: 0 auto;
+    max-width: 736px;
+  }
+
+  .section-two-li {
+    max-width: 356px;
+  }
+
+  .section-two .heading-two {
+    text-align: left;
+  }
+
+  .section-four-list {
+    gap: 64px 24px;
+  }
+
+  .section-five-ul {
+    gap: 72px 24px;
+  }
+  .section-five-li {
+    min-width: 168px;
+  }
+  
