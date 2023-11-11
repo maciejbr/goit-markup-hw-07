@@ -951,7 +951,7 @@ header {
     max-width: 768px;
   }
 
-  .header-wrap {
+  .header-div {
     height: 72px;
     max-width: 768px;
   }
@@ -961,12 +961,12 @@ header {
     display: flex;
   }
 
-  .header-div .nav-list {
+  .header-div .list-header {
     display: flex;
     gap: 40px;
   }
 
-  .header-div .nav-link {
+  .header-div .first-link {
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
