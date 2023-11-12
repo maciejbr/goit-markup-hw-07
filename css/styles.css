@@ -1002,6 +1002,13 @@ header {
     max-width: 496px;
   }
 
+  .section-two {
+    padding: 96px 0;
+  }
+  .section-two-icons-container {
+    display: none;
+  }
+
   .section-two-list {
     gap: 72px 24px;
     margin: 0 auto;
